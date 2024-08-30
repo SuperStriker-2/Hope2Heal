@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hope2Heal | Home</title>
+    <!-- Inder -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <!-- Inria Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- ABeeZee -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inder&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- my css/js -->
+    <link rel="stylesheet" href="master.css">
+
+    <script type="text/javascript">
+      var carousel;
+      var slide;
+      window.addEventListener("load", function(){
+        console.log("Hi");
+        carousel = document.getElementsByClassName("carousel")[0];
+        slide = document.getElementsByClassName("slide")[0];
+      });
+      function handleCarouselMove(positive = true) {
+        const slideWidth = slide.clientWidth;
+        carousel.scrollLeft = positive ? carousel.scrollLeft + slideWidth : carousel.scrollLeft - slideWidth;
+      }
+    </script>
+
+
+
+  </head>
+  <body>
+    <header>
+      <img src="pngs\breastcancer 1(1).png" alt="">
+      <nav>
+        <a href="team.html">Meet the Team</a>
+        <a href="events.html">Events</a>
+      </nav>
+    </header>
+    <div class="wrapper">
+
+      <div class="hero"><div class="hero-inner">
+        <img src="pngs\image 1.png" alt="">
+        <p>partnered with</p>
+        <div class="logo-marquee">
+          <ul class="marquee-content">
+            <li><img src="pngs\ahmedbutler(1) 1.png" alt=""></li>
+            <li><img src="pngs\88098 1.png" alt=""></li>
+            <li><img src="pngs\logo-new 1.png" alt=""></li>
+            <li><img src="pngs\penn-medicine-logo 2.png" alt=""></li>
+            <li><img src="pngs\Rutgers_Cancer_Institute_of_New_Jersey_logo 1.png" alt=""></li>
+            <li><img src="pngs\Yale_School_of_Medicine_logo.svg 1.png" alt=""></li>
+
+            <li><img src="pngs\ahmedbutler(1) 1.png" alt=""></li>
+            <li><img src="pngs\88098 1.png" alt=""></li>
+            <li><img src="pngs\logo-new 1.png" alt=""></li>
+            <li><img src="pngs\penn-medicine-logo 2.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="scroll-indicator">
+
+        </div>
+      </div></div>
+
+      <div class="mission">
+        <div class="mission-inner">
+          <div class="heading">
+            <h2>our</h2>
+            <h2>mission</h2>
+          </div>
+          <div class="body"><div class="body-content">
+            <img src="pngs\Untitled design 1.png" alt="">
+            <div class="text">
+              <p>Hope2heal was founded by three high school students driven by a common purpose: </p>
+              <p class="italic">To make a difference in the lives of those impacted by cancer</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wwd">
+        <div class="wwd-inner">
+          <div class="heading">
+            <h2>what</h2>
+            <h2>we do</h2>
+          </div>
+          <div class="body">
+            <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+              &#8249;
+            </button>
+
+
+
+            <div class="carousel">
+              <div class="slide">
+                <img src="pngs\awareness_image.png" alt="">
+                <div class="carousel-text">
+                  <h4>Spread Awareness</h4>
+                  <p>We want to inform the community about what they can do to help and organize events to bring attention to the fight against cancer. </p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="pngs\Volunteer_image.png" alt="">
+                <div class="carousel-text">
+                  <h4>Volunteer</h4>
+                  <p>We want to provide people with opportunities to volunteer and help out those struggling with cancer.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="pngs\educate_image.png" alt="">
+                <div class="carousel-text">
+                  <h4>Educate</h4>
+                  <p>We want to educate both youth and adults alike about the illness and what they can do to help combat it.  </p>
+                </div>
+              </div>
+          </div>
+          <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+            &#8250;
+          </button>
+        </div>
+      </div>
+      </div>
+
+      <div class="action">
+        <div class="action-content">
+          <img src="pngs\Untitled design 2.png" alt="">
+          <div class="action-content-right">
+            <div class="action-text">
+              <h2>together</h2>
+              <h4>we can create a brighter future for cancer patients and their loved ones</h4>
+            </div>
+            <div class="action-buttons">
+              <a href="#">Meet our team</a>
+              <a href="#">Browse our events</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
