@@ -127,7 +127,7 @@ header img {
 
 nav {
   display: flex;
-  gap: 0em;
+  gap: 1em;
   width: 20vw;
   justify-content: space-around;
 }
@@ -139,10 +139,12 @@ nav a {
   color: rgba(255, 230, 230, 1);
   text-decoration: none;
   font-family: "ABeeZee";
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   transition: all 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+  text-align: center;
+  align-content: center;
+    width: fit-content;
 }
-
 nav a:visited {
   color: rgba(255, 230, 230, 1);
   text-decoration: none;
@@ -411,7 +413,7 @@ scroll-behavior: smooth
   transform: scale(1.1);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px), (orientation: portrait) {
   header {
     justify-content: center;
   }
@@ -507,7 +509,7 @@ scroll-behavior: smooth
   }
 
   .slide img {
-    width: 90%;
+    /* width: 90%; */
   }
 
   .action-content {
@@ -527,5 +529,31 @@ scroll-behavior: smooth
   }
   .action-text h2 {
     font-size: 8rem;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1001px) {
+  .text {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  nav {
+    width: 25vw;
+  }
+  .carousel-text h4 {
+    font-size: 2rem;
+  }
+  .carousel-text p {
+    font-size: 1.2rem;
+  }
+  .action-text h2 {
+    font-size: 7rem;
+  }
+  .action-text h4 {
+    font-size: 2rem;
+  }
+  .action-buttons a {
+    font-size: 1.1rem;
+    padding: 2em 0em;
   }
 }

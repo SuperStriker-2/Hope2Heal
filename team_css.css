@@ -36,7 +36,7 @@ header img {
 
 nav {
   display: flex;
-  gap: 0em;
+  gap: 1em;
   width: 20vw;
   justify-content: space-around;
 }
@@ -48,8 +48,10 @@ nav a {
   color: rgba(255, 230, 230, 1);
   text-decoration: none;
   font-family: "ABeeZee";
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   transition: all 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+  text-align: center;
+  align-content: center;
 }
 
 nav a:visited {
