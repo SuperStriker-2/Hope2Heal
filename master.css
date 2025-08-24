@@ -334,6 +334,79 @@ scroll-behavior: smooth
   font-size: 5rem;
 }
 
+.ai-therapist {
+  background-color: #C85B72;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai-therapist-inner {
+  width: 80vw;
+  display: flex;
+  height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ai-content {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.ai-content h2 {
+  font-family: "Inria Sans";
+  font-size: 5rem;
+  font-weight: 600;
+  color: #FFE6E6;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ai-content p {
+  font-family: "ABeeZee";
+  font-size: 1.8rem;
+  color: #FFE6E6;
+  line-height: 1.4;
+}
+
+.ai-button {
+  background-color: #FFE6E6;
+  color: #E5416F;
+  padding: 1.5em 3em;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: "ABeeZee";
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ai-button:hover {
+  transform: scale(1.05);
+  background-color: #E5416F;
+  color: #FFE6E6;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ai-image {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai-image img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
 .action {
   background-color: #E5416F;
   height: 100vh;

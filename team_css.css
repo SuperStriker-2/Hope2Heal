@@ -290,3 +290,59 @@ nav a:hover {
   box-shadow: 4px 4px 0px 2px rgba(255, 230, 230, 0.5);
 
 }
+
+.alumni-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 230, 230, 0.1);
+}
+
+.alumni-content {
+  background-color: #FFE6E6;
+  color: #910000;
+  width: 50vw;
+  border-radius: 30px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+  text-align: center;
+  box-shadow: 0px 0px 0px 20px rgba(255, 230, 230, 0.3), 0px 0px 0px 40px rgba(255, 230, 230, 0.3), 0px 0px 0px 60px rgba(255, 230, 230, 0.3);
+}
+
+.alumni-content h2 {
+  font-family: "Inria Sans";
+  font-size: 4rem;
+  font-weight: 600;
+  color: #E5416F;
+}
+
+.alumni-content p {
+  font-family: "ABeeZee";
+  font-size: 1.5rem;
+  width: 35vw;
+  color: #910000;
+}
+
+.alumni-button {
+  background-color: #E5416F;
+  color: #FFE6E6;
+  padding: 1.5em 3em;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: "ABeeZee";
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.alumni-button:hover {
+  transform: scale(1.05);
+  background-color: #C85B72;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
