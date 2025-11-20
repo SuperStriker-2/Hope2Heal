@@ -254,6 +254,8 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 10vw;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item {
